@@ -7,7 +7,12 @@ body{
   align-items: center;
   background: #f9f9f9;
 }
-
+@media (max-width: 480px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+  }
+}
 .login-box{
   width: 400px;
   background: #fff;
