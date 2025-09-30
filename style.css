@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+.login-box{
+  width: 90%;
+  max-width: 450px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+p{
+  color: #555;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+label{
+ font-weight: bold;
+ display: block;
+}
+
+input{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  margin-top: 7px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.forgot-pass{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover,
+.forgot-pass:hover{
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover{
+  background-color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.google-btn{
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.google-btn:hover{
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.google-logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sign-up{
+  text-align: center;
+  margin-top: 30px;
+}
+
+span{
+ color: #555;
+}
+
+a{
+ color: #000;
+ text-decoration: none;
+ font-weight: bold;
+}

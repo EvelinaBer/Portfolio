@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+ <head>
+   <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+    <title>Log In</title>
+  </head>
+ <body>
+   <main>
+     <section class="login-box">
+       <h1>Welcome back</h1>
+       <p>Welcome back! Please enter your details.</p>
+       <form>
+         <label for="email">Email</label>
+         <input  id="email" type="email" name="enteryouremail" placeholder="Enter your email" required>
+         
+         <label for="password">Password</label>
+         <input id="password" type="password" name="password" placeholder="Password" pattern="[A-Za-z0-9]{8,}" required>
+         
+         <a href="#" class="forgot-pass">Forgot your password?</a>
+       
+       <button type="submit" class="login-button">Login</button>
+       
+       <button type="button" class="google-btn">
+         <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="googlebtn" class="google-logo">
+         Sign in with Google
+       </button>
+       </form>
+       <div class="sign-up">
+       <span>Don't have an account? </span><a href="#" > Sign up for free</a>
+        </div>
+     </section>
+   </main>
+  </body>
+</html>
