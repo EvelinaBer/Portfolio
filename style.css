@@ -111,3 +111,9 @@ a{
  text-decoration: none;
  font-weight: bold;
 }
+@media (max-width: 500px) {
+  body {
+    display: block; /* arba flex column */
+    padding: 20px; /* tarpai aplink box */
+  }
+}
