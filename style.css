@@ -107,6 +107,6 @@ input{
 @media (max-width: 480px) {
   .login-box {
     width: 90%;
-    padding: 20px;
+    padding: 30px;
   }
 }
